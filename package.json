@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/wildenali/nodejs-mysql/issues"
   },
-  "homepage": "https://github.com/wildenali/nodejs-mysql#readme"
+  "homepage": "https://github.com/wildenali/nodejs-mysql#readme",
+  "dependencies": {
+    "Express": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "mysql": "^2.18.1"
+  }
 }
