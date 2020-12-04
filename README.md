@@ -1,5 +1,7 @@
 # nodejs-mysql
 
+reference from [Ipung Dev - Youtube Channel](https://www.youtube.com/watch?v=_t3pUzdaRx4&list=PLH1gH0TmFBBiJuXv9YuzRoM9yuZtUHbhu&index=1)
+
 # npm init
 `$ npm init`
 
@@ -13,3 +15,6 @@
   - nim : int(11)
   - nama: varchar(50)
   - jurusan: varchar(50)
+
+# Run server.js
+`$ node server.js`
