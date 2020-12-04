@@ -27,3 +27,7 @@ reference from [Ipung Dev - Youtube Channel](https://www.youtube.com/watch?v=_t3
 # Run server.js
 
 `$ node server.js`
+
+# Get Data
+
+1. Create database on mysql, for example create 4 data
