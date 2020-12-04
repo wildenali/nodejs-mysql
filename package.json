@@ -10,15 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/wildenali/nodejs-mysql.git"
   },
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mysql"
+  ],
+  "author": "wildenali",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wildenali/nodejs-mysql/issues"
   },
   "homepage": "https://github.com/wildenali/nodejs-mysql#readme",
   "dependencies": {
-    "Express": "^3.0.1",
     "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "mysql": "^2.18.1"
   }
 }

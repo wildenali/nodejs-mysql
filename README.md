@@ -3,8 +3,8 @@
 # npm init
 `$ npm init`
 
-# Install Express, mysql, body-parser
-`$ npm install Express mysql body-parser`
+# Install express, mysql, body-parser
+`$ npm install express mysql body-parser`
 
 # Create a database in mysql
 1. Name of database: "nodejs_mysql_db"
