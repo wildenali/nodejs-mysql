@@ -31,3 +31,26 @@ reference from [Ipung Dev - Youtube Channel](https://www.youtube.com/watch?v=_t3
 # Get Data
 
 1. Create database on mysql, for example create 4 data
+
+# Post Data
+
+1. Add code on the kontroler.js file "Menambahkan data mahasiswa"
+2. Add code on the routes.js
+
+```
+app.route('/tambah')
+  .post(jsonku.tambahMahasiswa);
+```
+
+3. Test with postman:
+
+- Open postman
+- Choose `POST` method
+- Fill the post method with `http://localhost:3000/tambah`
+- Choose `Body`
+- Choose `x-www-form-urlencoded`
+- Fill the Key and Value like below
+  - nim: 202005
+  - name: ucup
+  - jurusan: teknik mesin
+- Click Send
