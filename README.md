@@ -54,3 +54,26 @@ app.route('/tambah')
   - name: ucup
   - jurusan: teknik mesin
 - Click Send
+
+# Put Data
+
+1. Add code on the kontroler.js file "Mengubah data mahasiswa berdasarkan ID"
+2. Add code on the routes.js
+
+```
+app.route('/ubah')
+  .put(jsonku.ubahMahasiswa);
+```
+
+3. Test with postman:
+
+- Open postman
+- Choose `POST` method
+- Fill the post method with `http://localhost:3000/tambah`
+- Choose `Body`
+- Choose `x-www-form-urlencoded`
+- Fill the Key and Value like below
+  - nim: 202005
+  - name: ucup
+  - jurusan: teknik mesin
+- Click Send
